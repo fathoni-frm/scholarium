@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>490</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+border-radius : 10;
+padding : 7px;
+background-color : rgb(226, 149, 120);
+font: 75 12pt &quot;Arial&quot;;
+font: bold;
+color: rgb(255, 255, 255);
+}
+
+QPushButton:hover {
+background-color : rgb(186, 122, 98);
+color: rgb(165, 165, 165);
+}</string>
+   </property>
+   <property name="text">
+    <string>MULAI</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1081</width>
+     <height>721</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>welcomeScreen.jpg</pixmap>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>pushButton</zorder>
+ </widget>
+ <resources>
+  <include location="logo.qrc"/>
+  <include location="bgScreen.qrc"/>
+ </resources>
+ <connections/>
+</ui>
