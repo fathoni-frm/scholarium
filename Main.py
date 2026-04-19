@@ -39,7 +39,7 @@ class Home(QDialog):
             user="root",
             password="password",
             db="tubespbo",
-            use_pure=True #Tambahkan ini jika menggunakan MySQL langsung di localhost (tanpa XAMPP)
+            # use_pure=True #Tambahkan ini jika menggunakan MySQL langsung di localhost (tanpa XAMPP)
         )
         cursor = con.cursor()
         sql = "SELECT * FROM listtugas ORDER BY Deadline ASC"
